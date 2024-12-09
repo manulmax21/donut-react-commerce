@@ -1,0 +1,29 @@
+.footer__main {
+  height: 100px;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(to right, var(--color3) 0%, var(--color4) 100%);
+  display: flex;
+  justify-content: center;
+}
+
+:root{
+  --color1: #242582;
+  --color2: #553D67;
+  --color3: #e1526e;
+  --color4: #99738E ;
+  --color5: #2F2FA2 ;
+}
+.bg1{
+  background-color: var(--color1);
+}
+.bg3{
+  background-color: var(--color3);
+}
+.bg_grad15{
+  background: linear-gradient(to right, var(--color1) 0%, var(--color5) 100%);
+}
+.bg_grad34{
+  background: linear-gradient(to right, var(--color3) 0%, var(--color4) 100%);
+}

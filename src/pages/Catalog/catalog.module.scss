@@ -1,0 +1,99 @@
+@import '../../styles/variables.scss';
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
+
+.catalog{
+  margin: 20px 20px 0 20px;
+  padding-bottom: 20px;
+  --bs-accordion-border-color: #f64c72 !important;
+  .container{
+    align-items: center;
+  }
+  .inner__catalog{
+    display: flex;
+    justify-content: space-between;
+    ::placeholder {
+      color: var(#{--text-color-default}) !important;
+    }
+    .form_control{
+      border: #F64C72 2px solid;
+      border-radius: 12px;
+      background: var(#{--components-background-default}) !important;
+      color: var(#{--text-color-default}) !important;
+    }
+  }
+  .el{
+    margin: 10px 0;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+.contCarts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pagination {
+  width: 100%;
+  display: flex;
+  padding: 25px 0 0 0;
+  justify-content: center;
+}
+.catalog {
+  --bs-accordion-border-color: #f64c72 !important;
+}
+.btnMy{
+  padding: 7px !important;
+  border-radius: 5px 0 0 5px !important;
+  border: 1px solid #f64c72 !important;
+  background-color: var(--color3);
+  color: white;
+}
+.btn_filter{
+  display: none;
+  padding: 7px !important;
+  border-radius: 0 5px 5px 0 !important;
+  border: 1px solid #f64c72 !important;
+  background-color: var(--color3);
+  color: white;
+}
+.filter__none {
+  display: block;
+}
+@media (max-width: 950px) {
+  .filter {
+    display: none;
+  }
+  .filter__none {
+    display: none;
+  }
+  .btn_filter{
+    display: block;
+  }
+  .bar_filter.sticky {
+    position: fixed;
+    margin-bottom: 10px;
+    top: 60px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тень для эффекта */
+    z-index: 10; /* Чтобы быть поверх других элементов */
+  }
+}
+.btn_filter_mobile {
+  display: none;
+}
+.bar_search.sticky {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тень для эффекта */
+  z-index: 10; /* Чтобы быть поверх других элементов */
+}
+
+.mobile_filter {
+
+}
+

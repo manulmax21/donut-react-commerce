@@ -1,0 +1,72 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css');
+
+.containerContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1, span {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    color: var(#{--text-color-default});
+  }
+  @media (max-width: 900px) {
+    .btns {
+      padding: 0 20% !important;
+    }
+  }
+  @media (max-width: 420px) {
+    h1 {
+      font-size: 24px !important;
+    }
+    span {
+      font-size: 14px !important;
+    }
+    .Btn {
+      font-size: 12px !important;
+    }
+    i {
+      font-size: 80px !important;
+      max-width: 300px !important;
+      padding: 10px 30px !important;
+    }
+    .btns {
+      padding: 0 !important;
+    }
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  i {
+    font-size: 130px;
+    background-color: var(#{--card-background-default});
+    max-width: 300px;
+    padding: 20px 50px;
+    border-radius: 50%;
+    color: #e1526e;
+    justify-content: center;
+    text-align: center;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 0 40%;
+  }
+  @media (max-width: 1000px) {
+    padding: 0;
+  }
+  .Btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}

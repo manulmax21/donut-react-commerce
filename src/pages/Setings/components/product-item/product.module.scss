@@ -1,0 +1,63 @@
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import '../../../../styles/variables.scss';
+
+.card{
+  padding: 5px;
+  max-width: 100%;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  background: var(#{--components-background-default}) !important;
+  color: var(#{--text-color-default}) !important;
+  .card__img{
+    text-align: center;
+    height: 110px;
+  }
+  img{
+    overflow: hidden;
+    max-width: 120px;
+    height: auto;
+  }
+  .brak{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    .price{
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+  .card-name{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0;
+    color: #3e3e3e;
+  }
+  .cardName {
+    display: -webkit-box; /* Использование flexbox */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    -webkit-line-clamp: 3; /* Ограничение до 3 строк */
+    height: 50px;
+    overflow: hidden;
+  }
+  .card-subtitle{
+    font-size: 12px;
+    margin: 5px 0;
+    padding: 0;
+    color: #9f9f9f;
+  }
+  .fi_rr_shopping_cart{
+    color: #F64C72;
+    cursor: pointer;
+  }
+  .fi_rr_shopping_cart:hover{
+    color: var(--color1);
+  }
+}
+.btns {
+  display: flex;
+  gap: 10px;
+}
+.link {
+  text-decoration: none;
+  color: var(#{--text-color-default}) !important;
+}

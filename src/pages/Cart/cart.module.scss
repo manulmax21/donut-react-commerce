@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+
+.catalog{
+  margin: 10px;
+  color: var(#{--text-color-default}) !important;
+  .container{
+    align-items: center;
+  }
+    .el{
+      margin: 10px 0;
+      display: flex !important;
+      justify-content: center !important;
+    }
+
+}

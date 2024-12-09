@@ -1,0 +1,122 @@
+//profile
+.profile_img_body{
+  display: flex;
+  justify-content: center;
+  .profile_img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    border: 1px solid #eee;
+    box-shadow: 0 0 8px 0 #eee;
+    border-radius: 50%;
+    overflow: hidden;
+    img{
+      width: 100%;
+      align-items: center;
+      position: relative;
+    }
+  }
+}
+//carts
+.profile_img_body{
+  display: flex;
+  justify-content: center;
+  .profile_img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    border: 1px solid #eee;
+    box-shadow: 0 0 8px 0 #eee;
+    border-radius: 50%;
+    overflow: hidden;
+    img{
+      width: 100%;
+      align-items: center;
+      position: relative;
+    }
+  }
+}
+.txt {
+  color: var(#{--text-color-default}) !important;
+}
+.inp_f {
+  color: var(#{--text-color-default}) !important;
+}
+.text-muted {
+  color: var(#{--text-color-default}) !important;
+}
+.list_group button {
+  background: var(#{--components-background-default}) !important;
+  color: var(#{--text-color-default}) !important;
+}
+.popup_cont{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+  text-align: left;
+  .popupItem{
+
+  }
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  input {
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    height: 40px;
+
+    ::placeholder {
+      color: #eee;
+    }
+  }
+  span {
+    justify-content: flex-start !important;
+    margin-bottom: 5px !important;
+    padding: 0 ;
+    font-size: 12px;
+  }
+  button {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background: #F64C72;
+    height: 40px;
+  }
+}
+.ordersItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  .imgOrder {
+    max-height: 70px;
+    display: flex;
+    gap: 10px;
+    img {
+      height: 100%;
+    }
+  }
+  &:not(:last-child) {
+    border-bottom: var(--card-background-default) 1px solid;
+  }
+  .infoOrder {
+    display: flex;
+    .txtOrder {
+      margin: 0 10px;
+      font-size: 12px;
+    }
+    @media (max-width: 400px) {
+      .txtOrder {
+        font-size: 8px;
+      }
+    }
+    p, span {
+      margin: 4px 0;
+      padding: 0;
+      color: var(#{--text-color-default});
+    }
+  }
+}

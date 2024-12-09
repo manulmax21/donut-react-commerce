@@ -1,0 +1,22 @@
+.settings_comp{
+  .list-group-item{
+    cursor: pointer;
+  }
+  .list-group-item.active{
+    border: 1px solid var(--color3);
+    background: var(--color3);
+  }
+  .list_group_item{
+    cursor: pointer;
+    background: var(#{--components-background-default}) !important;
+    color: var(#{--text-color-default}) !important;
+  }
+  .list_group_item.active{
+    border: 1px solid var(--color3);
+    background: var(--color3);
+  }
+}
+.list_group_item.active {
+  background-color: #f64c72 !important;
+  border-color: #f64c72 !important;
+}

@@ -1,0 +1,17 @@
+.alert {
+  position: absolute;
+  bottom: 50px;
+  background-color: var(#{--card-background-default});
+  border-radius: 24px;
+  padding: 10px 5px;
+}
+.alert::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  right: -2px;
+  transform: translateX(-50%);
+  border-width: 20px;
+  border-style: solid;
+  border-color: var(#{--card-background-default}) transparent transparent transparent;
+}

@@ -1,0 +1,8 @@
+.pagination {
+  --bs-pagination-color: #f64c72 !important;
+  li, a {
+    cursor: pointer;
+    background: var(#{--components-background-default}) !important;
+    color: var(#{--text-color-default}) !important;
+  }
+}

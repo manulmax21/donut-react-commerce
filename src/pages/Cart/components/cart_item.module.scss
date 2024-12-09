@@ -1,0 +1,97 @@
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+.card{
+  padding: 5px;
+  background: var(#{--components-background-default}) !important;
+  color: var(#{--text-color-default}) !important;
+  .card__img{
+    text-align: center;
+    height: 120px;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+  }
+  img{
+    overflow: hidden;
+    max-width: 100px;
+    height: auto;
+  }
+  .brak{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    .price{
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+  .card-name{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0;
+    color: #3e3e3e;
+    display: -webkit-box; /* Использование flexbox */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    -webkit-line-clamp: 3; /* Ограничение до 3 строк */
+    height: 50px;
+    overflow: hidden;
+  }
+  .card_name {
+    display: -webkit-box; /* Использование flexbox */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    -webkit-line-clamp: 3; /* Ограничение до 3 строк */
+    height: 50px;
+    overflow: hidden;
+  }
+  .card-subtitle{
+    font-size: 12px;
+    margin: 5px 0;
+    padding: 0;
+    color: #9f9f9f;
+  }
+  .fi_br_trash{
+    color: #F64C72;
+    cursor: pointer;
+  }
+  .fi_br_trash:hover{
+    color: var(--color1);
+  }
+}
+.link {
+  text-decoration: none;
+  color: var(#{--text-color-default}) !important;
+}
+.totalCart{
+  border: #eeeeee 1px solid;
+  border-radius: 6px;
+  padding: 20px 10px;
+  .text {
+    p {
+      padding: 0;
+      margin: 5px 0;
+      cursor: default;
+    }
+    @media (max-width: 400px) {
+      font-size: 12px;
+    }
+    @media (max-width: 300px) {
+      font-size: 9px;
+    }
+  }
+  .btn {
+    border-top: #eeeeee 1px solid;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5px;
+    align-items: stretch;
+    @media (max-width: 400px) {
+      font-size: 12px;
+    }
+    @media (max-width: 300px) {
+      font-size: 9px;
+    }
+  }
+}

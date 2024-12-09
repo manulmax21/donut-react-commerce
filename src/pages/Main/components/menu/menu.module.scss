@@ -1,0 +1,15 @@
+.item_photo_card{
+  border-radius: 12px;
+  overflow: hidden;
+}
+.carousel-inner{
+  border-radius: 12px;
+  .carousel-item{
+    .item_photo{
+      width: 100%;
+      height: auto;
+      background-position: center;
+      overflow: hidden;
+    }
+  }
+}

@@ -1,0 +1,170 @@
+@import '../styles/variables.scss';
+
+//.header{
+//  display: flex;
+//  align-items: center;
+//  justify-content: space-between;
+//  width: 100%;
+//  margin-bottom: 30px;
+//}
+.wrapper{
+  display: flex;
+  align-items: center;
+}
+.change_theme{
+  cursor: pointer;
+  gap: 6px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  svg {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+  }
+}
+//.logo{
+//  svg{
+//    width: 65px;
+//    height: 65px;
+//  }
+//}
+//.title{
+//  text-transform: uppercase;
+//  font-weight: bold;
+//  font-size: 25px;
+//  color: $primary-color;
+//}
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+.img{
+  width: 40px;
+  margin-left: 10px;
+}
+.nav_h{
+  .cont{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .nav:focus {
+      box-shadow: none !important;
+    }
+    .navbar-toggler:focus {
+      box-shadow: none !important;
+    }
+    .nav{
+      top: 0;
+      color: #fff;
+      gap: 20px;
+      display: flex;
+      .div_icon {
+        border: none;
+        padding: 0;
+        margin-top: 10px;
+        background: none;
+      }
+      i{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        margin-right: 5px;
+        top: 1px;
+        position: relative;
+      }
+      i:before {
+        position: relative;
+        top: 1.5px;
+      }
+      svg {
+        top: -1px;
+        position: relative;
+        margin-right: 5px;
+      }
+      p{
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        p {
+          gap: 5px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+.navLink {
+  color: white !important;
+}
+a {
+  text-decoration: none !important;
+}
+.lxicon {
+  display: block;
+}
+.burger {
+  display: none;
+}
+.nav__mob__main {
+  display: none;
+}
+@media (max-width: 995px) {
+  .lxicon {
+    display: none;
+  }
+  .nav__mob__main {
+    display: block;
+  }
+  .burger {
+    display: block;
+  }
+  .nav_item_mob {
+    display: flex;
+    justify-content: center;
+  }
+  .navLink {
+    color: white !important;
+  }
+  i {
+    margin-right: 10px;
+  }
+  svg {
+
+  }
+}
+:root{
+  --color1: #242582;
+  --color2: #553D67;
+  --color3: #fa6a8b;
+  --color4: #99738E ;
+  --color5: #2F2FA2 ;
+}
+.bg1{
+  background-color: var(--color1);
+}
+.bg3{
+  background-color: var(--color3);
+}
+.bg_grad15{
+  background: linear-gradient(to right, var(--color1) 0%, var(--color5) 100%);
+}
+.bg_grad34{
+  background: linear-gradient(to right, var(--color3) 0%, var(--color4) 100%);
+}

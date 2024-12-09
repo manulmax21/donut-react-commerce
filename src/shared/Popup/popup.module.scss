@@ -1,0 +1,28 @@
+@import '../../styles/variables.scss';
+
+.popup {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  min-width: 300px;
+  min-height: 100px;
+  background: var(#{--components-background-default}) !important;
+  color: var(#{--text-color-default}) !important;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  opacity: 1;
+  z-index: 9;
+  padding: 10px;
+  .exit {
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+  }
+  .content {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}

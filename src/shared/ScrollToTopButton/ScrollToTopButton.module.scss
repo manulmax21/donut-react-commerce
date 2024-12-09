@@ -1,0 +1,21 @@
+.scroll_to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.scroll_button {
+  background-color: #F64C72; /* Цвет фона */
+  color: white; /* Цвет текста */
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 15px 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scroll_button:hover {
+  background-color: #F64C72; /* Цвет фона при наведении */
+}
